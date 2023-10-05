@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    font-family: 'Mooli', sans-serif;
+
+  }
+  
+  
+  .conteudo {
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+
+  
+  section .catalogo {
+    width: 100vw;
+    padding: 100px;
+  }
+  
+
+
+  section .display {
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    padding-top: 50px;
+    align-items: baseline
+  }
+  
+ 
+  
+  .filmes img {
+    width: 85%;
+  }
+
+  
+  .filmes p {
+    width: 90%;
+    color: #000000;
+  }
+/* Site utilizado para pesquisar sobre o grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));*/
+
+ /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout */
+
+
+  
